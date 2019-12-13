@@ -1,2 +1,3 @@
-# laminel48
-Beauty studio
+# Laminel 48
+
+Ninel beauty studio
