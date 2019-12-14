@@ -45,7 +45,8 @@
   color: #9c9c9c;
 }
 .moto-color3_3 {
-  color: #a8a8a8;
+  font-size: 16px;
+  color: #676767 !important;
 }
 .moto-color3_4 {
   color: #b5b5b5;
@@ -696,7 +697,7 @@ h4 {
   font-style: normal;
   font-family: 'Raleway', sans-serif;
   color: #ffffff;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 1.3;
   letter-spacing: 1px;
 }
@@ -714,7 +715,7 @@ h4 {
 }
 @media (max-width: 1039px) {
   .moto-text_232 {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 1.3;
     letter-spacing: 0px;
   }
@@ -806,12 +807,16 @@ h4 {
     letter-spacing: 0px;
   }
 }
+.moto-text_system_13_price_unit {
+  color: #887487;
+  font-size: 28px;
+}
 .moto-text_system_13 {
   font-weight: 300;
   font-style: italic;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.4;
   letter-spacing: 0px;
 }
@@ -1019,7 +1024,7 @@ h4 {
 .moto-text_system_8 {
   font-weight: 600;
   font-style: normal;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 24px;
   line-height: 1.5;
@@ -1105,8 +1110,8 @@ h4 {
   font-style: normal;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  font-size: 55px;
-  line-height: 1.4;
+  font-size: 35px;
+  line-height: 80px;
   letter-spacing: 0px;
 }
 .moto-text_system_6 a {
@@ -1123,14 +1128,14 @@ h4 {
 }
 @media (max-width: 1039px) {
   .moto-text_system_6 {
-    font-size: 35px;
+    font-size: 30px;
     line-height: 1.5;
     letter-spacing: 0px;
   }
 }
 @media (max-width: 767px) {
   .moto-text_system_6 {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1.5;
     letter-spacing: 0px;
   }
@@ -1466,9 +1471,10 @@ h4 {
   position: relative;
   display: block;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.25;
   transition: .3s;
+  font-weight: 200 !important;
 }
 @media screen and (max-width: 1039px) {
   .moto-widget-menu .moto-widget-menu-list > .moto-widget-menu-item > .moto-widget-menu-link {
@@ -5947,4 +5953,9 @@ shine 100% {
 .moto-container_width-fixed,
 .row-fixed .container-fluid {
   max-width: 1200px;
+}
+
+.google-map {
+  width: 100%;
+  height: 500px;
 }
